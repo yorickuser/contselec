@@ -1,0 +1,18 @@
+Package: contselec
+Title: Model selection procesure by contracting explanatry variables, with check of each explanatry variable's strength.
+Version: 0.1.0
+Authors@R: person("Hiroshi C.", "Ito", email = "hiroshibeetle@gmail.com", role = c("aut", "cre"))
+Description: Model selection procesure by contracting explanatry variables of high absolute correlation, with examining statistical strength of each explanatry variable. Main function is "cont_selec", which consists of "contract" (grouping explanatory variables of high absolute correlation, and contracting them by using theprincipal components of the groups) and "bestsub_stepwise" (combination of best subset selection, permutation test and stepwise selection)
+Depends: R (>= 3.4.4)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Imports: 
+    MASS,
+    foreach,
+    pforeach,
+    glmperm,
+    glmmML,
+    spdep,
+    methods
