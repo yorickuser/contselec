@@ -1821,6 +1821,7 @@ set_plot_each <- function(param,ylim,text_title,col.main,flag_expr){
     
     ##mtext(text_title, side = 3, line = 1.0, adj=0.5,at = NA,cex=1.2,col=col.main,font=2);
     ##mtext(text_title, side = 3, line = 1.1-0.2*flag_expr, adj=0.5,at = NA,cex=(1.2),col=col.main,font=2);
+    
     mtext(text_title, side = 3, line = 2.0-0.2*flag_expr, adj=0.5,at = NA,cex=(1.2),col=col.main,font=2);
     rect(xleft=-1.0,ybottom=-1,xright=2.0,ytop=ylim[2]*10,col="white");
 }
